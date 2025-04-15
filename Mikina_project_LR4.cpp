@@ -12,7 +12,8 @@ int EnterA() {
     cout << "Введите целое число A: ";
     cin >> A;
     return A;
-}
+    }
+
 
 // Функция для ввода числа B
 int EnterB() {
