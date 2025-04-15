@@ -41,6 +41,7 @@ int CalcOstatok(int A, int B, int C) {
 // Функция для нахождения целой части от деления A на сумму B и C
 int CalcCelayaPart(int A, int B, int C) {
     //разрабатывается Сидоровым П. - ветка branch_fun_5
+    return A / (B + C);
 }
 
 int main() {
