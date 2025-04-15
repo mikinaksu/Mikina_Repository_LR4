@@ -8,7 +8,10 @@ using namespace std;
 // Функция для ввода числа A
 int EnterA() {
     //разрабатывается Ивановым П. - ветка branch_fun_1
-
+    int A;
+    cout << "Введите целое число A: ";
+    cin >> A;
+    return A;
 }
 
 // Функция для ввода числа B
